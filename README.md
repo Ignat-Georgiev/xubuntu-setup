@@ -50,7 +50,7 @@ Comment=Arc Icon theme
 
 ### From repos
 ```
-sudo apt install blender cifs-utils clipit calibre freecad handbrake openvpn kazam jstest-gtk meshlab pinta remmina synergy thunderbird
+sudo apt install blender cifs-utils clipit calibre freecad handbrake redshift-gtk openvpn kazam jstest-gtk meshlab pinta remmina synergy thunderbird
 ```
 
 ## Useful scripts
