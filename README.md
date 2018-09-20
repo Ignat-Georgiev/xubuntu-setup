@@ -46,6 +46,7 @@ Comment=Arc Icon theme
 - [PyCharm](https://www.jetbrains.com/pycharm/download/#section=linux)
 - [TeamViewer](https://www.teamviewer.com/en/download/linux/)
 - [Ultimate VIM](https://github.com/amix/vimrc)
+- [Slack](https://slack.com/downloads/linux)
 
 ### From repos
 ```
