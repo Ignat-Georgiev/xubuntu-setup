@@ -35,34 +35,21 @@ Comment=Arc Icon theme
 - Whiskers Menu - Super + R
 
 ## Apps
-Available from the repos:
+### Apps to install with scripts:
+- Chrome
+- Spotify
+- Skype
+- Sublime Text 3
+
+### Manual installs
+- [CLion](https://www.jetbrains.com/clion/download/#section=linux)
+- [PyCharm](https://www.jetbrains.com/pycharm/download/#section=linux)
+- [TeamViewer](https://www.teamviewer.com/en/download/linux/)
+- [Ultimate VIM](https://github.com/amix/vimrc)
+
+### From repos
 ```
-blender
-cifs-utils
-clipit
-calibre
-chrome
-freecad
-handbrake
-openvpn
-CLion
-PyCharm
-Kazam
-jstest-gtk
-libre-office
-Lightworks
-meshlab
-pinta
-remmina
-ros-kinetic-desktop-full
-spotify
-slack
-skype
-teamviewer
-synergy
-ultimate VIM
-thunderbird
-Sublime text
+sudo apt install blender cifs-utils clipit calibre freecad handbrake openvpn kazam jstest-gtk meshlab pinta remmina slack synergy thunderbird
 ```
 
 ## Useful scripts
