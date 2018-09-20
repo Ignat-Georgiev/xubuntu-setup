@@ -10,8 +10,8 @@ For most of my projects, I use ROS Kinetic for which bounds me to use Ubuntu LTS
 - Sublime Text is my fav editor so it has it's own [config repo](https://github.com/Ignat-Georgiev/sublime-sync)
 
 ## Customisations
-- [Arc X Darker Theme](https://github.com/LinxGem33/X-Arc-Darker)
-- [Arc X Icons](https://github.com/LinxGem33/Arc-X-Icons)
+- [Arc X Darker Theme](https://gitlab.com/LinxGem33/X-Arc-White)
+- [Arc X Icons](https://gitlab.com/LinxGem33/Arc-X-Icons)
 - Panel layout can be found in this repo
 - Default file browser - Nautalis
 
