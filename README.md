@@ -10,8 +10,23 @@ For most of my projects, I use ROS Kinetic for which bounds me to use Ubuntu LTS
 - Sublime Text is my fav editor so it has it's own [config repo](https://github.com/Ignat-Georgiev/sublime-sync)
 
 ## Customisations
-- [Arc X Darker Theme](https://gitlab.com/LinxGem33/X-Arc-White)
-- [Arc X Icons](https://gitlab.com/LinxGem33/Arc-X-Icons)
+- [Arc X Darker Theme](https://gitlab.com/LinxGem33/X-Arc-White) - Can be downloaded as a .deb package which you can simply install. Then you have to change your theme from both the *Apperance* and *Window Manager* apps.
+- [Arc X Icons](https://gitlab.com/LinxGem33/Arc-X-Icons) - download source and put the icon packs into `~/.icons`. Then you will need to update your icons cache for all new installed icon packs using 
+``` gtk-update-icons-cache ~/.icons/[some-icon-pack]```
+Afterwards you will need to fix some missing icons. This can be done by editing the `index.theme` file in each icon pack. For example, navigate to `~/.icons/Arc-OSX-D/` then edit the index file and change
+```
+[Icon Theme]  
+Name=Arc  
+Inherits=Moka,Adwaita,gnome,hicolor  
+Comment=Arc Icon theme  
+```
+to
+```
+[Icon Theme]  
+Name=Arc  
+Inherits=ubuntu-mono-dark  
+Comment=Arc Icon theme  
+```
 - Panel layout can be found in this repo
 - Default file browser - Nautalis
 
