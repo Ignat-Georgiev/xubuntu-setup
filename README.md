@@ -50,7 +50,7 @@ Comment=Arc Icon theme
 
 ### From repos
 ```
-sudo apt install blender cifs-utils clipit calibre freecad handbrake redshift-gtk openvpn kazam jstest-gtk meshlab pinta remmina synergy thunderbird
+sudo apt install blender cifs-utils clipit calibre freecad handbrake redshift-gtk openvpn easy-rsa network-manager-openvpn-gnome kazam jstest-gtk meshlab pinta remmina synergy thunderbird nautilus vim xrdp vino gnome-tweak-tool
 ```
 
 ## Useful scripts
@@ -61,3 +61,10 @@ sudo apt install blender cifs-utils clipit calibre freecad handbrake redshift-gt
 Usually access these through the Nautalis Connect to Server menu
 - `sftp://ssh.inf.ed.ac.uk/afs/inf.ed.ac.uk/user/s15/s1521716` - Uni DICE filesystem
 - `smb://192.168.0.15/e/` - Samba access for home fileserver
+
+## Configure RDP
+Enable sharing from the RDP menu by launching terminal with `vino-preferences` and enabling sharing.
+
+## Set up file manager
+- Changed default file manager in *Preferred Applications*
+- Set up nautilus in list mode with `gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'`
