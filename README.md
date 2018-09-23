@@ -27,11 +27,12 @@ For most of my projects, I use ROS Kinetic for which bounds me to use Ubuntu LTS
 - Sublime Text 3
 
 ### Manual installs
-- [CLion](https://www.jetbrains.com/clion/download/#section=linux)
-- [PyCharm](https://www.jetbrains.com/pycharm/download/#section=linux)
+- [CLion](https://www.jetbrains.com/clion/download/#section=linux) - remember to sync settings
+- [PyCharm](https://www.jetbrains.com/pycharm/download/#section=linux) - remember to sync settings
 - [TeamViewer](https://www.teamviewer.com/en/download/linux/)
 - [Ultimate VIM](https://github.com/amix/vimrc)
 - [Slack](https://slack.com/downloads/linux)
+- [Anaconda](https://www.anaconda.com/download/) - Note that Anaconda has some issues running with ROS. For this purpose remove the path sourcing for it from `.bashrc` and source it only whenever needed. For that purpose I have made a custom command called `start_conda` within the `.custom_commands.bash` file
 
 ### From repos
 ```
