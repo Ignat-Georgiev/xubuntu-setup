@@ -53,3 +53,7 @@ Enable sharing from the RDP menu by launching terminal with `vino-preferences` a
 ## Set up file manager
 - Changed default file manager in *Preferred Applications*
 - Set up nautilus in list mode with `gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'`
+
+## Git setup
+Remember to use `git config credential.helper store` to save credentials
+
