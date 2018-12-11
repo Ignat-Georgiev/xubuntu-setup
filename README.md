@@ -28,7 +28,7 @@ For most of my projects, I use ROS Kinetic for which bounds me to use Ubuntu LTS
 
 ### Manual installs
 - [CLion](https://www.jetbrains.com/clion/download/#section=linux) - remember to sync settings
-- [PyCharm](https://www.jetbrains.com/pycharm/download/#section=linux) - remember to sync settings
+- [PyCharm](https://www.jetbrains.com/pycharm/download/#section=linux) - remember to sync settings		
 - [TeamViewer](https://www.teamviewer.com/en/download/linux/)
 - [Ultimate VIM](https://github.com/amix/vimrc)
 - [Slack](https://slack.com/downloads/linux)
