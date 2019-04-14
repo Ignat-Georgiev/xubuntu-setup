@@ -3,7 +3,7 @@ A guide of how to install my Ubuntu config. Mostly for myself as I reinstall mac
 
 ## Linux distro
 For most of my projects, I use ROS Kinetic for which bounds me to use Ubuntu LTS 16.04. Unity is ugly and impractical, that's why I use Xubuntu instead. [Download here](https://xubuntu.org/download)
-
+i
 ## Config files
 - `.bashrc` - place in home
 - `hosts` - place in `/etc/hosts`
@@ -20,11 +20,8 @@ For most of my projects, I use ROS Kinetic for which bounds me to use Ubuntu LTS
 - Whiskers Menu - Super + R
 
 ## Apps
-### Apps to install with scripts:
-- Chrome
-- Spotify
-- Skype
-- Sublime Text 3
+Just run the script `install/install_all.bash` with sudo to install everything.
+Otherwise, you are free to install whatever you fancy
 
 ### Manual installs
 - [CLion](https://www.jetbrains.com/clion/download/#section=linux) - remember to sync settings
@@ -33,11 +30,6 @@ For most of my projects, I use ROS Kinetic for which bounds me to use Ubuntu LTS
 - [Ultimate VIM](https://github.com/amix/vimrc)
 - [Slack](https://slack.com/downloads/linux)
 - [Anaconda](https://www.anaconda.com/download/) - Note that Anaconda has some issues running with ROS. For this purpose remove the path sourcing for it from `.bashrc` and source it only whenever needed. For that purpose I have made a custom command called `start_conda` within the `.custom_commands.bash` file
-
-### From repos
-```
-sudo apt install blender cifs-utils clipit calibre freecad handbrake redshift-gtk openvpn easy-rsa network-manager-openvpn-gnome kazam jstest-gtk meshlab pinta remmina synergy thunderbird nautilus vim xrdp vino gnome-tweak-tool
-```
 
 ## Useful scripts
 - `stop_joy.bash` - when you connect a some joysticks to ubuntu, they start controlling your mouse. This script stops that but allows the joystick to still work as a joystick.
