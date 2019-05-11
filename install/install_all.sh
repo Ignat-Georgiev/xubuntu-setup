@@ -10,6 +10,5 @@ apt install -y blender cifs-utils clipit calibre freecad handbrake redshift-gtk 
 ./install_chrome.sh
 ./install_eigen.sh
 ./install_paper_icons.sh
-./install_skype.sh
 ./install_spotify.sh
 ./install_sublime.sh
