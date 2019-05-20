@@ -7,6 +7,6 @@ then
     exit 1
 fi
 
-sudo add-apt-repository ppa:snwh/pulp
+sudo add-apt-repository -y ppa:snwh/pulp
 sudo apt-get update
 sudo apt-get install paper-icon-theme
