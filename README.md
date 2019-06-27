@@ -3,7 +3,7 @@ A guide of how to install my Ubuntu config. Mostly for myself as I reinstall mac
 
 ## Linux distro
 For most of my projects, I use ROS Kinetic for which bounds me to use Ubuntu LTS 16.04. Unity is ugly and impractical, that's why I use Xubuntu instead. [Download here](https://xubuntu.org/download)
-i
+
 ## Config files
 - `.bashrc` - place in home
 - `hosts` - place in `/etc/hosts`
