@@ -6,6 +6,8 @@ fi
 
 apt install -y blender cifs-utils clipit calibre freecad handbrake redshift-gtk openvpn easy-rsa network-manager-openvpn-gnome kazam jstest-gtk meshlab pinta remmina synergy thunderbird nautilus vim xrdp vino gnome-tweak-tool pdftk terminator
 
+sudo snap install mailspring
+
 # install from other scripts
 ./install_chrome.sh
 ./install_eigen.sh
