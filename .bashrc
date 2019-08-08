@@ -121,17 +121,12 @@ if [ -f $HOME/.custom_commands.bash  ]; then
     source ~/.custom_commands.bash
 fi
 
-source /opt/ros/kinetic/setup.bash
-alias clion='/opt/clion-2017.3.3/bin/clion.sh'
-alias bundle-alias='/var/lib/gems/2.3.0/gems/bundler-1.16.1/exe/bundle'
+# Source ROS
+# source /opt/ros/kinetic/setup.bash
+
+alias clion='/opt/clion-2019.1.4/bin/clion.sh'
+alias pycharm='/opt/pycharm-2019.1.3/bin/pycharm.sh'
     
-# ORB_SLAM source
-#export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/ignat/EUFSA/                 EUFS18_Autonomous/ORB_SLAM2/Examples/ROS
-
-# CUDA Stuff
-# export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH
-# export PATH=/usr/local/cuda-9.0/bin:$PATH
-
 # Distributed ROS
 # export ROS_MASTER_URI=http://tegraA:11311
 # export ROS_HOSTNAME=192.168.1.180
