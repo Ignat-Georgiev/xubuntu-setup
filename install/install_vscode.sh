@@ -1,5 +1,7 @@
 #!/bin/bash
 
+printf "\nInstalling VSCode\n"
+
 # first check if already installed
 if ! [ $(dpkg-query -W -f='${Status}' code 2>/dev/null | grep -c "ok installed") -eq 0  ];
 then

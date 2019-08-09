@@ -1,5 +1,7 @@
 #!/bin/bash
 
+printf "\nInstall Spotify\n"
+
 # first check if already installed
 if ! [ $(dpkg-query -W -f='${Status}' spotify-client 2>/dev/null | grep -c    "ok installed") -eq 0   ];
 then

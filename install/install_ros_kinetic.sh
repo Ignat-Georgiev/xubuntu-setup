@@ -2,6 +2,8 @@
 
 # from http://wiki.ros.org/kinetic/Installation/Ubuntu
 
+printf "\nInstalling ROS Kinetic\n"
+
 # first check if already installed
 if ! [ $(dpkg-query -W -f='${Status}' ros-kinetic-desktop-full 2>/dev/null | grep -c "ok installed") -eq 0  ];
 then

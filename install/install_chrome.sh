@@ -1,5 +1,7 @@
 #!/bin/bash
 
+printf "\nInstalling Chrome\n"
+
 # first check if already installed
 if ! [ $(dpkg-query -W -f='${Status}' google-chrome-stable 2>/dev/null | grep -c "ok installed") -eq 0  ];
 then
