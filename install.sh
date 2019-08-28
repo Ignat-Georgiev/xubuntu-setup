@@ -23,6 +23,8 @@ install/install_vscode.sh
 
 
 printf "\n## Copying config files##\n"
+
 cp -r .bashrc .vimrc .custom_commands.bash .config scripts ~/
+sudo cp 70-synaptics.conf /usr/share/X11/xorg.conf.d/
 
 printf "\n## Finished install ##\n"
