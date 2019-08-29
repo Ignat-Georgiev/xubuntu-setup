@@ -10,7 +10,7 @@ printf "\n## installing linux packages ##\n"
 
 apt install -y cifs-utils clipit calibre freecad handbrake redshift-gtk openvpn easy-rsa network-manager-openvpn-gnome kazam jstest-gtk meshlab pinta remmina synergy thunderbird nautilus vim xrdp vino gnome-tweak-tool pdftk terminator
 
-sudo snap install mailspring
+sudo snap install mailspring odrive-unoff
 
 
 printf "\n## Installing 3rd party\n"""

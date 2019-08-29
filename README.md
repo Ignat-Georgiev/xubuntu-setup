@@ -20,8 +20,11 @@ For most of my projects, I use ROS Kinetic for which bounds me to use Ubuntu LTS
 - Whiskers Menu - Super + R
 
 ## Apps
-Just run the script `install/install_all.bash` with sudo to install everything.
+Just run the script `install.sh` with sudo to install everything.
 Otherwise, you are free to install whatever you fancy
+
+Don't forget to configure:
+- ODrive
 
 ### Manual installs
 - [CLion](https://www.jetbrains.com/clion/download/#section=linux) - remember to sync settings
