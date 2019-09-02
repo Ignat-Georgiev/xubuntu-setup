@@ -8,7 +8,7 @@ fi
 
 printf "\n## installing linux packages ##\n"
 
-apt install -y cifs-utils clipit calibre freecad handbrake redshift-gtk openvpn easy-rsa network-manager-openvpn-gnome kazam jstest-gtk meshlab pinta remmina synergy thunderbird nautilus vim xrdp vino gnome-tweak-tool pdftk terminator
+apt install -y cifs-utils clipit calibre freecad handbrake redshift-gtk openvpn easy-rsa network-manager-openvpn-gnome kazam jstest-gtk meshlab pinta remmina synergy thunderbird nautilus vim xrdp vino gnome-tweak-tool pdftk terminator nmap python-catkin-tools
 
 sudo snap install mailspring odrive-unofficial
 
