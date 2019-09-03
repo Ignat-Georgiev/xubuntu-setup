@@ -124,8 +124,8 @@ fi
 # Source ROS
 # source /opt/ros/kinetic/setup.bash
 
-alias clion='/opt/clion-2019.1.4/bin/clion.sh'
-alias pycharm='/opt/pycharm-2019.1.3/bin/pycharm.sh'
+alias clion='/opt/clion/bin/clion.sh'
+alias pycharm='/opt/pycharm/bin/pycharm.sh'
     
 # Distributed ROS
 # export ROS_MASTER_URI=http://tegraA:11311
