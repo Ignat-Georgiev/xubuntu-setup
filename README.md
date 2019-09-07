@@ -1,4 +1,8 @@
 # xubuntu-setup
+
+**ATTENTION**
+This repository has been [moved here](https://gitlab.com/imgeorgiev/ubuntu_setup)
+
 A guide of how to install my Ubuntu config. Mostly for myself as I reinstall machines often.
 
 ## Linux distro
